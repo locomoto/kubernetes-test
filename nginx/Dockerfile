@@ -2,6 +2,7 @@ FROM nginx:alpine
 
 RUN apk add --update \
     musl-dev \
+    libffi-dev \
     gcc \
     python \
     python-dev \
