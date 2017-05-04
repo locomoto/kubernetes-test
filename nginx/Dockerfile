@@ -3,7 +3,7 @@ FROM nginx:alpine
 RUN apk add --update \
     musl-dev \
     libffi-dev \
-    libssl-dev \
+    linux-headers \
     gcc \
     python \
     python-dev \
