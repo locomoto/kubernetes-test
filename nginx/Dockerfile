@@ -1,6 +1,7 @@
 FROM nginx:alpine
 
 RUN apk add --update \
+    gcc \
     python \
     python-dev \
     py-pip \
